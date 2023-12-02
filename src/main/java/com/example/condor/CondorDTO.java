@@ -10,4 +10,8 @@ import lombok.RequiredArgsConstructor;
 public class CondorDTO {
     private String status;
 
+    public String getStatus(){
+        return status;
+    }
+
 }

@@ -11,9 +11,9 @@ public class CondorController {
     private final CondorService condorService;
 
     @GetMapping("/")
-    public CondorDTO condorStatue() {
+    public String condorStatue() {
         CondorDTO condorDTO = condorService.getCondorStatus();
-        return condorDTO;
+        return condorDTO.getStatus();
     }
 
 }
