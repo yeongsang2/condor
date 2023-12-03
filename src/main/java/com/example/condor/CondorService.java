@@ -16,7 +16,7 @@ public class CondorService {
     public String startCondorStatus(){
         try {
             // Run script
-            Process process = Runtime.getRuntime().exec("");
+            Process process = Runtime.getRuntime().exec("./condor.sh");
 
             // Read output
             StringBuilder output = new StringBuilder();
