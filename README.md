@@ -5,5 +5,6 @@
 ./gradlew build
 ```
 
-cd build/libs
-build/libs$ java -jar condor-0.0.1-SNAPSHOT.jar
+```
+build/libs/java -jar condor-0.0.1-SNAPSHOT.jar
+```
